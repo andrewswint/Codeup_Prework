@@ -1,0 +1,55 @@
+body {
+	font-family: 'Orbitron', sans-serif;
+	color: black;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url("../img/background.png")
+}
+
+#car {
+	border-radius: 50%;
+	width: 50%;
+	padding: 3px;
+	border: thick double #06a7e2;
+	margin: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+h1,h2 {
+	color: #06a7e2;
+	text-decoration: underline;
+}
+
+ul {
+	list-style: square;
+}
+
+table {
+	padding: 20px;
+	font-size: 1em;
+}
+
+th, td{
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+/* link when link has been clicked*/
+a:visited {
+  color: black;
+  }
+
+/*link before click*/
+a:link {
+	color: red;
+}
+
+/*link when hovering over*/
+a:hover {
+	color: orange;
+}
